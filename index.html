@@ -143,13 +143,18 @@
      alt="firefox-addons">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img src = "mdn.svg" alt="mdn's_svg"/>
+          <img src="mdn.svg" alt="mdn's_svg"/>
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
         <!-- insert picture element -->
+       <picture>
+  	<source media="(max-width: 600px)" srcset="red-panda-portrait-600px.jpg">
+  	<source media="(min-width: 601px)" srcset="red-panda-landscape-1200px.jpg">
+  	<img src="red-panda-landscape-1200px.jpg" alt="red-panda-landscape-1200px.jpg">
+       </picture>
       </div>
 
     </main>
